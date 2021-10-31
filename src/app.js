@@ -12,10 +12,10 @@ import 'react-dates/lib/css/_datepicker.css';
 // add two expenser add text  , visible display
 
 const store = configureStore();
-
-store.dispatch(addExpense({ description: 'Water bill', amount: 4500 }));
-store.dispatch(addExpense({ description: 'Gas bill', createdAt: 1000 }));
-store.dispatch(addExpense({ description: 'Rent', amount: 109500 }));
+// we arge goning to use rreal database
+// store.dispatch(addExpense({ description: 'Water bill', amount: 4500 }));
+// store.dispatch(addExpense({ description: 'Gas bill', createdAt: 1000 }));
+// store.dispatch(addExpense({ description: 'Rent', amount: 109500 }));
 
 // setTimeout(() => {
 //     store.dispatch(setTextFilter('rent'));
