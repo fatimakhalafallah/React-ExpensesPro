@@ -1,0 +1,13 @@
+// is json file you need to but the preset configuration for babel presets=env,react
+// it mean every time to run babel you need to run this command
+{
+    "presets": [
+      "env",
+      "react"
+    ],
+    "plugins": [
+      "transform-class-properties",
+      "transform-object-rest-spread"
+    ] // to enable plugin progertiesn for s6
+  }
+  
